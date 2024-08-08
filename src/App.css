@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+/*dark background to support form theme*/
+body{
+  background:url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/dark_wall.png);
+}
+
+h1{
+  text-align:align;
+  padding:30px 0px 0px 0px;
+  font:25px Oswald;
+  color:#FFF;
+  text-transform:uppercase;
+  text-shadow:#000 0px 1px 5px;
+  margin:0px;
+}
+
+h2{
+  text-align:align;
+  padding:30px 0px 0px 0px;
+  font:25px Oswald;
+  color:rgb(47, 182, 35);
+  text-transform:uppercase;
+  text-shadow:#000 0px 1px 5px;
+  margin:0px;
+}
+
+p{
+  font:13px Open Sans;
+  color:#6E6E6E;
+  text-shadow:#000 0px 1px 5px;
+  margin-bottom:30px;
+}
+
+
+
+input[type="text"],input[type="password"]{
+  width:98%;
+  padding:15px 0px 15px 8px;
+  border-radius:5px;
+  box-shadow:inset 4px 6px 10px -4px rgba(0,0,0,0.3), 0 1px 1px -1px rgba(255,255,255,0.3);
+	background:rgba(0,0,0,0.2);
+  border:1px solid rgba(0,0,0,1);
+  margin-bottom:10px;
+  color:#6E6E6E;
+  text-shadow:#000 0px 1px 5px;
+}
+
+button[type="submit"]{
+  width:100%;
+  padding:15px;
+  border-radius:5px;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(55, 222, 40)), to(rgb(47, 182, 35)));
+  background-image: -webkit-linear-gradient(rgb(55, 222, 40) 0%, rgb(47, 182, 35) 100%);
+  background-image: -moz-linear-gradient(rgb(55, 222, 40) 0%, rgb(47, 182, 35) 100%);
+  background-image: -o-linear-gradient(rgb(55, 222, 40) 0%, rgb(47, 182, 35) 100%);
+  background-image: linear-gradient(rgb(55, 222, 40) 0%, rgb(47, 182, 35) 100%);
+  font:14px Oswald;
+  color:#FFF;
+  text-transform:uppercase;
+  text-shadow:#000 0px 1px 5px;
+  border:1px solid #000;
+  opacity:0.7;
+	-webkit-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.7);
+  -moz-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.7);
+	box-shadow: 0 8px 6px -6px rgba(0,0,0,0.7);
+  border-top:1px solid rgba(255,255,255,0.8)!important;
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(rgba(255,255,255,0.2)));
+}
+
+.betup{
+  width:90%;
+  padding:15px;
+  border-radius:5px;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(55, 222, 40)), to(rgb(47, 182, 35)));
+  background-image: -webkit-linear-gradient(rgb(55, 222, 40) 0%, rgb(47, 182, 35) 100%);
+  background-image: -moz-linear-gradient(rgb(55, 222, 40) 0%, rgb(47, 182, 35) 100%);
+  background-image: -o-linear-gradient(rgb(55, 222, 40) 0%, rgb(47, 182, 35) 100%);
+  background-image: linear-gradient(rgb(55, 222, 40) 0%, rgb(47, 182, 35) 100%);
+  font:14px Oswald;
+  color:#FFF;
+  text-transform:uppercase;
+  text-shadow:#000 0px 1px 5px;
+  border:1px solid #000;
+  opacity:0.7;
+	-webkit-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.7);
+  -moz-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.7);
+	box-shadow: 0 8px 6px -6px rgba(0,0,0,0.7);
+  border-top:1px solid rgba(255,255,255,0.8)!important;
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(rgba(255,255,255,0.2)));
+}
+.betdown{
+  width:90%;
+  padding:15px;
+  border-radius:5px;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(207, 3, 3)), to(rgb(212, 47, 47)));
+  background-image: -webkit-linear-gradient(rgb(207, 3, 3) 0%, rgb(212, 47, 47) 100%);
+  background-image: -moz-linear-gradient(rgb(207, 3, 3) 0%, rgb(212, 47, 47) 100%);
+  background-image: -o-linear-gradient(rgb(207, 3, 3) 0%, rgb(212, 47, 47) 100%);
+  background-image: linear-gradient(rgb(207, 3, 3) 0%, rgb(212, 47, 47) 100%);
+  font:14px Oswald;
+  color:#FFF;
+  text-transform:uppercase;
+  text-shadow:#000 0px 1px 5px;
+  border:1px solid #000;
+  opacity:0.7;
+	-webkit-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.7);
+  -moz-box-shadow: 0 8px 6px -6px rgba(124, 110, 110, 0.7);
+	box-shadow: 0 8px 6px -6px rgba(0,0,0,0.7);
+  border-top:1px solid rgba(255,255,255,0.8)!important;
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(rgba(255,255,255,0.2)));
+}
+
+.signout{
+  width:20%;
+  float: right!important;
+  padding:15px;
+  border-radius:5px;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(207, 3, 3)), to(rgb(212, 47, 47)));
+  background-image: -webkit-linear-gradient(rgb(207, 3, 3) 0%, rgb(212, 47, 47) 100%);
+  background-image: -moz-linear-gradient(rgb(207, 3, 3) 0%, rgb(212, 47, 47) 100%);
+  background-image: -o-linear-gradient(rgb(207, 3, 3) 0%, rgb(212, 47, 47) 100%);
+  background-image: linear-gradient(rgb(207, 3, 3) 0%, rgb(212, 47, 47) 100%);
+  font:14px Oswald;
+  color:#FFF;
+  text-transform:uppercase;
+  text-shadow:#000 0px 1px 5px;
+  border:1px solid #000;
+  opacity:0.7;
+	-webkit-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.7);
+  -moz-box-shadow: 0 8px 6px -6px rgba(124, 110, 110, 0.7);
+	box-shadow: 0 8px 6px -6px rgba(0,0,0,0.7);
+  border-top:1px solid rgba(255,255,255,0.8)!important;
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(rgba(255,255,255,0.2)));
+}
+.betdown:hover,.betup:hover, .signout:hover{
+  opacity:1;
+  cursor:pointer;
+}
+.bitimg{
+  height:100%;
+  width: 100%;
+  padding: 10px;
+}
+
+.usernamesi-help,.passwordsi-help,.usernamesu-help,.passwordsu-help{
+  display:none;
+  padding:0px;
+  margin:0px 0px 15px 0px;
+}
+
+input:focus{
+  box-shadow:inset 4px 6px 10px -4px rgba(0,0,0,0.7), 0 1px 1px -1px rgba(255,255,255,0.3);
+  background:rgba(0,0,0,0.3);
+}
+
+button[type="submit"]:hover{
+  opacity:1;
+  cursor:pointer;
+}
+
+.username-help,.password-help{
+  display:none;
+  padding:0px;
+  margin:0px 0px 15px 0px;
+}
+
+.optimize{
+  position:fixed;
+  right:3%;
+  top:0px;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-bottom: 16px solid blue;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.column-in-center{
+  float: none;
+  margin: 0 auto;
+}
